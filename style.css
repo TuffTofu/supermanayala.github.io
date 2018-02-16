@@ -36,16 +36,16 @@ html, body {
 .btn {
 	border-radius: 9px;
 	font-family: ‘Roboto', sans-serif;
-	color: #ffffff;
+	color: #fff;
 	font-size: 135%;
 	padding: 10px 20px;
-	border: solid #ffffff 3px;
+	border: solid #fff 3px;
 	text-transform: uppercase;
 	text-decoration: none;
 }
 .btn:hover {
-	color: #000000;
-	border: solid #000000 3px;
+	color: #000;
+	border: solid #000 3px;
 }
 P {
 	font-size: 160%;
