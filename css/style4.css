@@ -1,5 +1,5 @@
-@import url(‘https://fonts.googleapis.com/css?family=Verdana’);
-@import url(‘https://fonts.googleapis.com/css?family=Roboto’);
+@import url(â€˜https://fonts.googleapis.com/css?family=Verdanaâ€™);
+@import url(â€˜https://fonts.googleapis.com/css?family=Robotoâ€™);
 
 html, body {
 	margin: 0;
@@ -27,7 +27,8 @@ html, body {
 	scroll=normal
 	
 	*/
-	background-attachment: fixed;
+	background-attachment: scroll;
+	
 }
 .intro .inner {
 	display:  table-cell;
@@ -41,17 +42,17 @@ html, body {
 	text-align: center;
 }
 .content h1 {
-	font-family: ‘Verdana’, sans-serif;
+	font-family: â€˜Verdanaâ€™, sans-serif;
 	color: #F9F3F4;
 	text-shadow: 0px 0px 300px #000;
-	font-size: 500%;
+	font-size: 400%;
 }
 .btn {
-	border-radius: 9px;
-	font-family: ‘Roboto’, sans-serif;
+	border-radius: 7px;
+	font-family: â€˜Robotoâ€™, sans-serif;
 	color: #fff;
-	font-size: 135%;
-	padding: 10px 20px;
+	font-size: 110%;
+	padding: 7px 15px;
 	border: solid #fff 3px;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -65,12 +66,11 @@ html, body {
 	text-align: center;
 	padding: 10px 20px;
 	font-family: 'Verdana', sans-serif;
-	
 }
 
 .content2 h2 {
 	font-size: 200%;
-	font-family: ‘Verdana’, sans-serif;
+	font-family: â€˜Verdanaâ€™, sans-serif;
 	color: #000;
 	
 }
@@ -84,21 +84,9 @@ html, body {
 P {
 	font-size: 150%;
 	line-height: 200%;
-	text-align: justify;
+	/*text-align: justify;*/
 	margin: 3%;
+	text-align: center;
 	font-family: 'Verdana', sans-serif;
 	font-weight: regular;
 }
-/*@media screen and (max-width: 768px) {
-	.content h1 {
-		font-size: 250%;
-	}
-	.btn {
-		font-size: 110%;
-		padding: 7px 15px;
-	}
-	P {
-		font-size: 100%;
-		line-height: 160%;
-	}
-}*/
